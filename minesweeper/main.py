@@ -1,5 +1,7 @@
 import random
 import os
+class start:
+    os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 class functions:
     global esc
     global square
