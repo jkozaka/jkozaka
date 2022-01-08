@@ -5,20 +5,18 @@ class functions:
     global square
     global clear
     clear = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
-    def esc(code):
-        return "\033[" + str(code) + "m"
+    esc = lambda code: "\033[" + str(code) + "m"
 class main:
     while True:
-        print(esc(1) + esc(31))
         clear()
-        print("/")
+        print(esc(1) + esc(31) + "/" + esc(0))
         time.sleep(0.1)
         clear()
-        print("-")
+        print(esc(1) + esc(31) + "-" + esc(0))
         time.sleep(0.1)
         clear()
-        print("\\")
+        print(esc(1) + esc(31) + "\\" + esc(0))
         time.sleep(0.1)
         clear()
-        print("|")
+        print(esc(1) + esc(31) + "|" + esc(0))
         time.sleep(0.1)
