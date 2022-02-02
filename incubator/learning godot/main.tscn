@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/Camera.gd" type="Script" id=1]
+[ext_resource path="res://scripts/brick.gd" type="Script" id=2]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.454069, 0.853318, 0.42644 )
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 1, 1, 0.984896 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="ground" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1.23549, -0.0448041, -0.293598, -1.97941 )
+
+[node name="StaticBody" type="StaticBody" parent="ground"]
+
+[node name="CollisionShape" type="CollisionShape" parent="ground/StaticBody"]
+transform = Transform( 23.7158, 0, 0, 0, -0.519191, 0, 0, 0, -21.8671, -0.0441604, 0.177201, 0.496263 )
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="ground/StaticBody"]
+transform = Transform( 23.7157, 0, 0, 0, -0.519191, 0, 0, 0, -21.8671, -0.214928, 0.0980037, 0.31496 )
+width = 0.907316
+depth = 0.859852
+
+[node name="brick" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0224, 0 )
+
+[node name="RigidBody" type="RigidBody" parent="brick"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.931898, 3.70896, -0.273342 )
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="brick/RigidBody"]
+transform = Transform( 1.00998, 0, 0, 0, 0.993663, 0, 0, 0, 1.01595, -0.956234, -0.0310378, 0.28386 )
+shape = SubResource( 2 )
+
+[node name="CSGBox" type="CSGBox" parent="brick/RigidBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.931898, -0.0321879, 0.273342 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.989997, 0.141091, 0, -0.141091, 0.989997, -0.447063, 1.30625, 13.7115 )
+script = ExtResource( 1 )
