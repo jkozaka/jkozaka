@@ -12,4 +12,4 @@ class load:
     loading = ["/","-","\\","|"]
     smile = ["╰(°▽°)╯","╭(°▽°)╮"]
     firework = [".","·","●","◉","◎","⠿","⠶","┅","…","_","_"]
-    animplay(firework,0.1,10)
+    animplay(loading,0.1,10)

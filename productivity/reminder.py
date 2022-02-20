@@ -1,8 +1,6 @@
 #✓
-#todo: propery comment objects
-
 import os
-os.chdir("/run/media/jkozaka/jkozaka/github/jkozaka/productivity") #sets current directory
+os.chdir("/run/media/jkozaka/jkozaka/github/jkozaka/productivity") 
 
 clear = os.system('cls' if os.name in ('nt', 'dos') else 'clear')#defines the function to clear terminal
 
@@ -18,7 +16,12 @@ def reload():
     #fills in remsplit
 
     clear
-    
+
     for b in range(0,len(remsplit)):
-        print(remsplit[b][0] + " : " + remsplit[b][1] if b in expand else remsplit[b][0])
+        print(remsplit[b][0] + " : " + remsplit[b][2] if b in expand else remsplit[b][0])
     #lists out todo list
+
+def editprompt():
+    command = input(">>") #createst variable for command
+
+reload()
