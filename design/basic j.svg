@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="basic j.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="px"
+     width="512px"
+     inkscape:zoom="0.73139029"
+     inkscape:cx="96.391763"
+     inkscape:cy="354.1201"
+     inkscape:window-width="1420"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       spacingx="1.0583333"
+       spacingy="1.0583333"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#4444ff;fill-opacity:1;stroke:none;stroke-width:0.706663;stroke-dashoffset:10.0157"
+       id="rect3047"
+       width="135.46666"
+       height="135.46666"
+       x="2.9776365e-06"
+       y="1.0702881e-06" />
+    <path
+       style="fill:#88bbff;fill-opacity:1;stroke:none;stroke-width:0.597007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 10.420508,10.42051 v 38.208546 h 38.208549 c 0,0 0,38.208551 -38.208549,38.208549 0,0 0,38.208545 0,38.208545 0,0 76.417096,0 76.417096,-76.417094 H 125.04615 V 10.42051 Z"
+       id="path859"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+</svg>
