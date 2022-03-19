@@ -5,7 +5,8 @@ import time
 clear = os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
 #for ansi escape sequences
-esc = lambda code : "\033[" + str(code) + "m"
+#sets ansi escape sequences
+esc = lambda code : "\033[" + str(code) + "m" #add in print function
 
 #animation player. uses a list to make an text animation
 def animplay(frames,framedelay,repeat):
