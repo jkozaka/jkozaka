@@ -1,7 +1,5 @@
 import os
 
-#bad bad bad
-
 class functions: #defines functions
     global clear
     global esc
@@ -9,8 +7,7 @@ class functions: #defines functions
     esc = lambda code : "\033[" + str(code) + "m"
 
 class main: #main stuff
+    clear
     while True:
-        clear
-        print(esc(7))
-        cmd = input(os. getcwd() + " >")
+        cmd = input(esc(42) + esc(1) + os. getcwd() + esc(46) + ">" + esc(0) + " ")
         os.system(cmd)
