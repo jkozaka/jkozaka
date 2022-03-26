@@ -15,6 +15,8 @@ vows = 1 #amount of vowels in syllable
 consoants = "bcdfghjklmnpqrstvwxyz" #config possible
 vowels = "aeiou"                    #
 
+output = []
+
 for x in range(0,words):
     word = []
 
@@ -40,4 +42,6 @@ for x in range(0,words):
 
         word.append("".join(syllable)) #adds syllable to word
 
-    print("".join(word))
+    output.append("".join(word)) #adds word to output
+
+print(" ".join(output))
