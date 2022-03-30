@@ -1,2 +1,0 @@
-lime builder:0:language to develop apps (like html).
-prog rammer:0:make after lime. ram progs for points.
