@@ -1,0 +1,3 @@
+ 
+for loop:
+ (starting command;condition to run;run every)

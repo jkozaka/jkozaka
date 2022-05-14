@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 import time
 class functions:
@@ -12,6 +13,8 @@ class load:
     print("\033[0m")
     loading = ["/","-","\\","|"]
     smile = ["╰(°▽°)╯","╭(°▽°)╮"]
-    firework = [".","·","●","◉","◎","⠿","⠶","┅","…","_","_"]
+    firework = ".·●◉◎⠿⠶┅…__"
     title = ["\033[32mt","te","tes","test","test ","test t","test ti","test tit","test titl","test title"]
-    animplay(title,0.1,1)
+    man = "🯈🯇"
+    animplay(man,0.1,5)
+	

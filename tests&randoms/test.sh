@@ -1,2 +1,1 @@
-neofetch
-echo never gonna give you up
+echo s

@@ -1,0 +1,8 @@
+#!/usr/bin/python
+
+allchars = "0123456789abcdefghijklmnopqrstuvwxyz"
+
+def foo(num):
+    for x in range(num):
+        print(allchars[int((x-(x%36))/36)]+allchars[x%36])
+foo(720)
