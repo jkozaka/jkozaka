@@ -1,0 +1,48 @@
+#!/usr/bin/python
+import random
+
+goto = lambda xy : "\033["+str(xy[1])+";"+str(xy[0])+"H"
+
+def food():
+    food = [random.randint(0,9),random.randint(0,4)]
+    print(goto(food))
+    print("\033[31m█\033[0m")
+
+def dead():
+    print(goto([1,2])+"\033[31myou died")
+
+food()
+
+direction = [1,0]
+size = 2
+stomach = 0
+score = 0
+snake = [[0,0],[1,0]]
+
+
+for y in range(50):
+    goto([15,15])
+    print(snake)
+    print(y)
+
+    snake.append([
+        snake[size-1][0]+direction[0],
+        snake[size-1][1]+direction[1]])
+
+    for x in range(size):
+        snake[x]=[snake[x][0]%10,snake[x][1]%5]
+    
+    if stomach == 0:
+        print(goto(snake[0]))
+        print(" ")
+        del snake[0]
+    else:
+        size = size + 1
+
+    print(goto(snake[size-1]))
+    print("\033[32m█\033[0m")
+
+    head = snake[size-1]
+    body = snake
+    del body[size-1]
+
