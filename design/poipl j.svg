@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="poipl j.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.8318963"
+     inkscape:cx="88.785018"
+     inkscape:cy="53.291707"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       empspacing="6" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:1.00157;stroke-dashoffset:10.0157"
+       id="rect894"
+       width="120"
+       height="120"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#800080;fill-opacity:1;stroke-width:1.00157;stroke-dashoffset:10.0157"
+       id="rect2382"
+       width="12"
+       x="84"
+       y="42" />
+    <g
+       id="g916">
+      <rect
+         style="fill:#aa55aa;fill-opacity:1;stroke-width:1.29303;stroke-dashoffset:10.0157"
+         id="rect962"
+         width="60"
+         height="24"
+         x="30"
+         y="18" />
+      <circle
+         style="fill:#aa55aa;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-dashoffset:10.0157"
+         id="path6341"
+         cx="30"
+         cy="30"
+         r="12" />
+      <circle
+         style="fill:#aa55aa;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-dashoffset:10.0157"
+         id="path6343"
+         cx="90"
+         cy="30"
+         r="12" />
+    </g>
+    <g
+       id="g911">
+      <path
+         style="fill:#aa55aa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 48,42 h 24 c 0,0 12,60 -42,60 V 78 C 60,78 48,42 48,42 Z"
+         id="path9203"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#aa55aa;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-dashoffset:10.0157"
+         id="path13252"
+         sodipodi:type="arc"
+         sodipodi:cx="30"
+         sodipodi:cy="90"
+         sodipodi:rx="12"
+         sodipodi:ry="12"
+         sodipodi:start="0"
+         sodipodi:end="6.117763"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="M 42,90 A 12,12 0 0 1 30.496125,101.98974 12,12 0 0 1 18.041023,90.991403 12,12 0 0 1 28.515016,78.092237 12,12 0 0 1 41.836187,88.023973" />
+    </g>
+  </g>
+</svg>

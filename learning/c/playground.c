@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-int main() {
-test1:
-    printf("penis");
-test2:
-    printf("balls");
+int main(int argc,char *argv[]) {
+    printf("%s",argv[1]);
     return 0;
 }
