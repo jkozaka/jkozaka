@@ -5,30 +5,41 @@ void help() {
     puts("Welcome to \e[1mrock paper scissors\e[0m.");
     puts("The game is quite simple.");
     puts("say \e[1mR,P or S\e[0m, meaning rock, paper or scissors, in that order.");
-    puts("Hope that the AI wont randomly pick the winning option");
-
+    puts("Hope that the AI wont randomly pick the winning option\n");
 }
-void game() {
-    //
+
+void clear() {
+    puts("\e[2J\e[0;0H");
 }
 
 int main() {
-start:
-    puts("welcome. type \e[1mh\e[0m for help and \e[1ms\e[0m to play");
-    char choice = getchar(); //gets character to see if was certain operation
 
-    puts("\e[2J\e[0;0H"); //clears terminal
+    getchar();getchar();
 
-    if (choice=='h') {
-        help();
-        goto start; //help info
+    char choice = '0';
+        
+    clear();
+    while (choice!='s') {
 
-    } else if (choice=='s') {
-        game(); //a
+        puts("\e[35mwelcome. type \e[1;34mh\e[0m\e[35m for help and \e[1;34ms\e[0m\e[35m to play\e[0m");
+        choice = getchar(); //gets character to see if was certain operation
 
-    } else {
-        puts("invalid answer\n");
-        goto start;
+        clear();
+
+        switch (choice) {
+
+            case 'h':
+                clear();
+                help();//displays help
+                break;
+
+            default:
+                puts("invalid answer");
+                break;
+        }
+        getchar(); //sweeps away remaining chars
     }
+    clear();
+#include "game.c"
     return 0;
 }
