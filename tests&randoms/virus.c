@@ -1,6 +1,6 @@
 #include <stdio.h>
 #ifdef _WIN32
-#define CALCULATOR "calculator"
+#define CALCULATOR "calc"
 #else
 #define CALCULATOR "kcalc"
 #endif
