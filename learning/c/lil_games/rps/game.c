@@ -18,8 +18,10 @@ for (int x = 0;x<3;x++) {
     
     char shoot;
     char aishoot; //option by user and ai
+                  
+    char rps[][9] = {"rock","paper","scissors"};
     
-    do { // swap char to int. to ease checking who won
+    while (!(valid)) { // swap char to int. to ease checking who won
         
         char cshoot = lower(getchar()); //gets user option (rock paper or scissors)
         getchar();
@@ -40,19 +42,29 @@ for (int x = 0;x<3;x++) {
             
         }
 
-
         aishoot = rand() % 3; //ai option
+                              
+        printf("\e[1;35mAI: \e[0m%s",rps[aishoot]); //outputs ai choice
 
-    } while (!(valid));
-
-    char winner;
-
-    if (shoot == (aishoot+1)%3) {
-        winner = 0;
-    } else if (aishoot == (shoot+1)%3) {
-        //
-    } else {
-        //
     }
 
+
+
+    if (shoot == (aishoot+1)%3) { //checks wins
+        playerwins++;
+        puts("\e[36;1mAI WINS\e[0m");
+
+    } else if (aishoot == (shoot+1)%3) {
+        aiwins++;
+        puts("\e[36;1mAI WINS\e[0m");
+
+    } else {
+        puts("\e[36;1mTIE\e[0m");
+        x--;
+    }
+
+    gets();
+
+
 }
+puts("sdgfvhsadjkyhfgviukjsad.l");

@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-int main(int argc,char *argv[]) {
-    printf("%s",argv[1]);
+int main() {
+#ifdef _WIN32
+    puts("use linux");
+#else
+    puts("nice");
+#endif
     return 0;
 }
