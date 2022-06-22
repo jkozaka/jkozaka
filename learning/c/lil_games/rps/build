@@ -1,3 +1,4 @@
 #!/usr/bin/bash
 gcc rps.c -o rps -Wall
+read
 ./rps

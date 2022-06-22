@@ -10,8 +10,6 @@ void help() {
 
 int main() {
 
-    getchar(); //wait until enter to be pressed. to help errors be viewed
-
     char choice = '0';
         
     clear();
@@ -32,9 +30,11 @@ int main() {
             default:
                 puts("invalid answer");
                 break;
+                
         }
         getchar(); //sweeps away remaining chars
     }
+
     clear();
     
 #include "game.c"

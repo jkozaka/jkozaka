@@ -1,14 +1,13 @@
+
+//only for linux (can run on windows, but with ansi)
+
 #include <stdio.h>
 int main() {
     unsigned long currentn;
     for (unsigned long n = 1U; n<=18446744073709551615U; n++) { //goes through all numbers that can be represented with 64 bits
         currentn = n;
-#ifdef _WIN32
-    system("cls");
-    printf("%lu\n¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯\e[0m",n);
-#else
-        printf("\e[2J\e[0;0H\e[31;1m%lu\n¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯\e[0m\n",n);
-#endif
+        int x = 0;
+
             //until currentn is 1,
             //if currentn is odd, multiply currentn by 3 and add 1
             //if currentn is even, divide by 2
@@ -23,10 +22,11 @@ int main() {
                     currentn = currentn * 3 + 1;
                     break;
             }
-            printf("%lu ",currentn);
+            printf("\r\033[31;1m%lu \033[0m%lu ",n,currentn);
+            x++;
         }
         
-        printf("\n");
+        printf("\033[1;32m✓%d\033[0m\n",x);
     }
 
     return 0;

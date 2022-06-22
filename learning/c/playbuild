@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+gcc -Wall -o play playground.c
+read
+./play
