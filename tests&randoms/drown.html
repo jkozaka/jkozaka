@@ -8,8 +8,17 @@
         color: lightgrey;
         text-align: center;
     </style> 
+    <script>
+      function reloadhp() {
+        document.getElementById("life").innerHTML = life;
+      }
+    </script>
   </head>
   
   <body>
+    <h1>Drown The Man</h1>
+    <h3 id="life">banana</h3>
+    <img id="victim" src="https://thumbs.dreamstime.com/b/portrait-scared-man-gray-i-m-afraid-fright-portrait-scared-man-business-man-standing-isolated-gray-studio-141098070.jpg" width="400" height="250">
+    <button onclick="var life = 100;reloadhp()">reset</button>
   </body>
 </html>
