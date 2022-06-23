@@ -3,8 +3,13 @@
 
 #include <stdio.h>
 int main() {
-    unsigned long currentn;
+
+    FILE *f;
+    
+    unsigned long currentn; //processing number
+
     for (unsigned long n = 1U; n<=18446744073709551615U; n++) { //goes through all numbers that can be represented with 64 bits
+        f = fopen("logs", "w+");
         currentn = n;
         int x = 0;
 
@@ -22,11 +27,11 @@ int main() {
                     currentn = currentn * 3 + 1;
                     break;
             }
-            printf("\r\033[31;1m%lu \033[0m%lu ",n,currentn);
+            printf("\r\033[31;1m%lu \033[0m%lu ",n,currentn); //SHOWING CURRENT STATUS
             x++;
         }
         
-        printf("\033[1;32m✓%d\033[0m\n",x);
+        printf("\033[1;32m✓%d\033[0m\n",x); //FINAL OUTPUT
     }
 
     return 0;
