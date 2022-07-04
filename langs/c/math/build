@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+gcc -O3 -Wall -o 3x+1 3x+1.c
+read
+./3x+1
