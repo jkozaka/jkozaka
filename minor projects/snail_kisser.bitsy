@@ -20,7 +20,7 @@ ROOM 0
 b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
 b,0,0,0,b,0,0,0,e,b,h,0,0,0,0,b
 b,0,0,0,b,0,0,0,0,b,0,0,0,0,g,b
-b,e,0,0,b,0,0,0,0,b,0,0,0,0,0,b
+0,e,0,0,b,0,0,0,0,b,0,0,0,0,0,b
 b,b,f,b,b,b,b,f,b,b,f,b,b,b,b,b
 b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
 b,b,b,b,b,b,b,b,b,b,0,j,i,0,0,b
@@ -49,7 +49,7 @@ b,b,b,b,b,b,b,0,0,l,b,b,b,b,b,b
 b,b,b,b,b,b,0,0,0,0,0,0,0,b,b,b
 b,b,l,0,0,0,0,0,m,0,0,0,0,0,b,b
 b,0,0,0,0,0,k,0,0,0,0,0,0,0,0,b
-0,0,0,0,0,0,0,0,k,0,k,0,0,0,0,0
+0,0,0,0,0,0,0,0,k,0,k,0,0,0,0,b
 b,0,0,0,0,0,0,0,0,0,0,0,0,0,l,b
 b,0,0,0,k,0,0,0,0,0,0,0,0,k,0,b
 b,b,0,0,0,0,0,0,0,0,k,0,0,0,b,b
@@ -100,20 +100,147 @@ b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
 b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
 b,b,b,b,b,b,b,0,k,0,0,b,b,b,b,b
 b,b,b,b,b,b,b,0,0,0,0,l,b,b,b,b
-b,b,b,b,b,b,0,0,0,n,0,0,0,b,b,b
-b,b,b,b,b,b,n,n,n,0,0,0,0,0,b,b
+b,b,b,b,b,b,0,0,0,0,0,0,0,b,b,b
+b,b,b,b,b,b,0,0,0,0,0,0,0,0,b,b
 b,b,b,b,0,l,0,0,0,k,0,0,k,0,0,b
 b,b,b,b,0,0,0,0,0,0,0,0,0,0,0,b
 0,0,0,0,0,0,k,0,0,l,0,0,0,0,0,b
-b,b,0,0,0,0,0,0,0,n,0,0,0,l,0,b
-b,b,b,b,b,b,0,0,0,n,n,0,0,0,0,b
+b,b,0,0,0,0,0,0,0,0,0,0,0,l,0,b
+b,b,b,b,b,b,0,0,0,0,0,0,0,0,0,b
 b,b,b,b,b,b,b,l,0,0,0,0,k,0,b,b
 b,b,b,b,b,b,b,b,0,k,0,0,b,b,b,b
 b,b,b,b,b,b,b,b,0,0,0,b,b,b,b,b
 b,b,b,b,b,b,b,b,0,0,b,b,b,b,b,b
 b,b,b,b,b,b,b,b,0,b,b,b,b,b,b,b
 NAME cave3
+ITM 3 8,4
+ITM 3 9,4
+ITM 3 10,4
+ITM 3 11,3
+ITM 3 5,7
+ITM 3 6,7
+ITM 3 7,8
+ITM 3 8,9
+ITM 3 12,7
+ITM 3 11,8
+ITM 3 11,9
+ITM 3 10,11
+ITM 3 10,12
+ITM 3 10,13
+ITM 1 4,9
+ITM 1 7,5
+ITM 1 12,11
 EXT 0,8 2 15,8
+EXT 7,0 4 7,15
+PAL 1
+
+ROOM 4
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,0,k,0,b,b,b
+b,b,b,b,b,b,b,b,b,0,0,0,0,0,b,b
+b,b,b,b,b,b,b,k,0,0,l,0,0,0,0,b
+b,b,b,b,b,b,b,0,0,0,0,0,0,l,0,0
+b,b,b,b,b,b,0,0,0,0,0,0,0,0,0,b
+b,b,b,b,b,b,0,k,0,0,0,k,0,b,b,b
+b,b,b,b,b,b,0,0,0,0,0,0,b,b,b,b
+b,b,b,b,b,b,0,0,0,0,b,b,b,b,b,b
+b,b,b,b,b,b,0,l,0,b,b,b,b,b,b,b
+b,b,b,b,b,b,0,0,0,b,b,b,b,b,b,b
+b,b,b,b,b,b,k,0,0,b,b,b,b,b,b,b
+b,b,b,b,b,b,0,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+NAME cave 4
+ITM 1 11,6
+ITM 1 7,10
+ITM 1 8,13
+ITM 3 10,9
+ITM 3 11,9
+ITM 3 12,8
+ITM 3 13,4
+ITM 3 13,5
+ITM 3 13,6
+ITM 3 7,7
+ITM 3 8,7
+EXT 7,15 3 7,0
+EXT 15,6 5 0,8
+PAL 1
+
+ROOM 5
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,n,0,b,b,b,b,b,b
+b,b,b,0,0,0,n,0,n,0,n,0,0,b,b,b
+b,b,n,0,n,0,n,0,n,0,n,0,0,0,0,b
+b,b,n,0,n,0,n,0,0,0,n,0,0,0,0,0
+b,0,0,0,n,0,n,0,0,0,n,0,0,0,0,b
+0,0,0,0,n,0,n,0,0,0,n,0,0,0,b,b
+b,b,b,b,n,0,0,0,n,0,0,0,0,0,b,b
+b,b,b,b,b,b,0,0,n,0,0,0,0,b,b,b
+b,b,b,b,b,b,0,0,n,0,n,0,0,b,b,b
+b,b,b,b,b,b,b,0,n,0,n,0,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+NAME cave 5
+ITM 1 3,8
+ITM 1 5,6
+ITM 1 7,11
+ITM 1 9,5
+ITM 1 12,8
+EXT 0,8 4 15,6
+EXT 7,15 6 7,0
+PAL 1
+
+ROOM 6
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,0,b,b,b,b,b,b,b
+b,b,b,b,0,0,0,0,0,0,b,b,b,b,b,b
+b,b,b,0,0,0,0,0,0,0,b,b,b,b,b,b
+b,b,b,0,0,0,0,0,0,0,0,b,b,b,b,b
+b,b,0,0,0,0,0,0,0,0,0,0,b,b,b,b
+b,b,0,0,0,0,0,0,0,0,0,0,b,b,b,b
+b,b,0,0,0,0,0,0,0,0,0,0,0,b,b,b
+b,b,0,0,0,0,0,0,0,0,0,0,0,b,b,b
+b,b,0,0,0,0,0,0,0,0,0,0,0,b,b,b
+b,b,b,0,0,0,0,0,0,0,0,0,b,b,b,b
+b,b,b,b,0,0,0,0,0,0,b,b,b,b,b,b
+b,b,b,b,b,b,0,0,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+NAME cave 6
+ITM 4 9,12
+ITM 4 4,3
+ITM 4 2,10
+ITM 4 11,6
+EXT 7,0 5 7,15
+PAL 1
+
+ROOM 7
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b
+b,b,b,n,0,0,0,b,b,b,b,b,b,b,b,b
+b,b,0,n,0,k,0,0,0,b,b,b,b,b,b,b
+b,0,0,n,0,0,l,0,k,0,0,b,b,b,b,b
+0,0,0,n,0,k,0,0,0,0,0,b,b,b,b,b
+b,0,0,0,0,0,n,0,n,n,0,0,b,b,b,b
+b,0,k,0,l,0,n,0,0,0,0,0,b,b,b,b
+b,b,0,0,0,0,0,0,0,k,0,0,b,b,b,b
+b,b,b,b,b,0,0,0,0,0,0,b,b,b,b,b
+b,b,b,b,b,b,k,0,n,0,0,b,b,b,b,b
+b,b,b,b,b,b,0,0,0,l,b,b,b,b,b,b
+b,b,b,b,b,b,0,0,k,0,b,b,b,b,b,b
+b,b,b,b,b,b,b,0,b,b,b,b,b,b,b,b
+NAME cave 7
+ITM 1 4,6
+ITM 1 3,10
+ITM 1 10,8
+ITM 1 8,11
 PAL 1
 
 TIL b
@@ -202,7 +329,7 @@ TIL j
 00011110
 00011000
 00011000
-11111111
+00011000
 NAME hanger
 
 TIL k
@@ -251,12 +378,13 @@ TIL n
 00000000
 00000000
 00000000
-00100010
-00100010
-01010101
-01010101
 00000000
-NAME spike
+00000000
+00000000
+00000000
+00000000
+NAME barrier
+WAL true
 
 SPR A
 00011000
@@ -267,7 +395,7 @@ SPR A
 10111101
 00100100
 00100100
-POS 0 2,1
+POS 6 7,3
 
 SPR a
 00000000
@@ -293,6 +421,7 @@ SPR b
 11111111
 NAME home snail wall
 DLG 3
+POS 0 0,3
 
 SPR c
 00000000
@@ -346,6 +475,32 @@ NAME info 1
 DLG a
 POS 3 4,7
 
+SPR g
+00011000
+00111100
+01100110
+11111111
+11100111
+01100110
+00100100
+00011000
+NAME info 2
+DLG c
+POS 5 2,7
+
+SPR h
+00011000
+00111100
+01100110
+11111111
+11100111
+01100110
+00100100
+00011000
+NAME info 3
+DLG e
+POS 6 8,2
+
 ITM 0
 00000000
 00000000
@@ -391,6 +546,30 @@ ITM 2
 NAME sword
 DLG 8
 
+ITM 3
+00000000
+00000000
+00100010
+00100010
+01010101
+01010101
+00000000
+00000000
+NAME spike
+DLG b
+
+ITM 4
+00010001
+11111111
+01000100
+11111111
+00010001
+11111111
+01000100
+11111111
+NAME Wall snail
+DLG d
+
 DLG 1
 TO DO: kiss snails,{pg}You got the to do list
 NAME table
@@ -431,7 +610,7 @@ DLG 6
 NAME mum
 
 DLG 7
-MWAH!
+{printTile "l"}MWAH!{printTile "l"}
 NAME snail dialog
 
 DLG 8
@@ -450,8 +629,27 @@ DLG 9
 NAME rival
 
 DLG a
-spikes bad
+Spikes kill you
 NAME info dialog
+
+DLG b
+"""
+{end}{clr3}Game Over!{clr3}
+you hit a spike
+"""
+NAME spike
+
+DLG c
+This room is full of invisible walls
+NAME info 2 dialog
+
+DLG d
+You found A snail in the wall {pg}{printTile "l"}MWAH!{printTile "l"}
+NAME Wall snail
+
+DLG e
+Walls In slightly different colours have snails.
+NAME info 3 dialog
 
 VAR homewallsnail
 0
