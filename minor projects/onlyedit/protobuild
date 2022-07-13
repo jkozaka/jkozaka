@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+gcc prototype.c -o app -O3 -W
