@@ -1,0 +1,13 @@
+body {
+    background-color: #0f0804;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.black  {color: #0f0804;}
+.red    {color: #cc4444;}
+.green  {color: #44cc44;}
+.yellow {color: #cccc44;}
+.blue   {color: #4444cc;}
+.purple {color: #aa44cc;}
+.cyan   {color: #44cccc;}
+.white  {color: #ffffcc;}
