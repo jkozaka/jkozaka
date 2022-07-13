@@ -1,9 +1,18 @@
-body {
-    background-color: #0f0804;
+.monospace {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.black  {color: #221108;}
+.dark {
+    background-color: #0f0804;
+    color: #ffffcc;
+}
+
+.light {
+    background-color: #ffffcc;
+    color: #0f0804;
+}
+
+.black  {color: #0f0804;}
 .red    {color: #cc4444;}
 .green  {color: #44cc44;}
 .yellow {color: #cccc44;}
