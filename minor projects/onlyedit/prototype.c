@@ -7,7 +7,7 @@ int main(){
         location = SEEK_CUR;                        //saves location, (to write at later)       not working
 
         printf("\033[0;0H");                        //goes to spot to get append prompt
-        printf("\033[2K");                          //clears line for input
+        printf("\033[2K");                          //clears line ftr input
 
         fgets(towrite, 64, stdin);                  //gets text to append
              
